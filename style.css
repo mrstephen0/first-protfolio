@@ -8,7 +8,7 @@ body {
     height: 500px;
     padding-bottom: 30px;
     display: flex;
-    background-image: url(/Photos/top-banner.png);
+    background-image: url(./Photos/top-banner.png);
     background-repeat: no-repeat;
 }
 
@@ -16,7 +16,7 @@ body {
     height: 500px;
     padding-bottom: 30px;
     display: flex;
-    background-image: url(/Photos/big-dream.png);
+    background-image: url(./Photos/big-dream.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 80px;
@@ -62,7 +62,7 @@ body {
 
 .card {
     display: flex;
-    background-image: url(/Photos/exp-pic.png);
+    background-image: url(./Photos/exp-pic.png);
     background-repeat: no-repeat;
 
 }
