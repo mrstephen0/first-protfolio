@@ -1,0 +1,105 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 21px;
+    margin: 0;
+}
+
+.header {
+    height: 500px;
+    padding-bottom: 30px;
+    display: flex;
+    background-image: url(/Photos/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.second-header {
+    height: 500px;
+    padding-bottom: 30px;
+    display: flex;
+    background-image: url(/Photos/big-dream.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+
+.orange-color {
+    color: orange;
+}
+
+.half-width {
+
+    width: 100%;
+    padding-left: 30px;
+
+}
+
+.half-width img {
+    width: 60%;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, red);
+    padding: 10px 30px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+}
+
+.experience {
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-right: 500px;
+    margin-left: 500px;
+    background-color: black;
+}
+
+.card {
+    display: flex;
+    background-image: url(/Photos/exp-pic.png);
+    background-repeat: no-repeat;
+
+}
+
+.card-1 {
+    margin-left: 60px;
+    margin-right: 125px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 50%;
+    box-shadow: 10px 10px 30px;
+    border-left: 4px solid;
+    border-image: linear-gradient(blue 1%, aqua 100%);
+    border-image-slice: 1;
+
+}
+
+.card-2 {
+    margin-right: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 50%;
+    box-shadow: 10px 10px 30px;
+    border-left: 4px solid;
+    border-image: linear-gradient(red 1%, orange 100%);
+    border-image-slice: 1;
+}
+
+.year {
+    color: orangered;
+}
+
+.year-text {
+    color: orange;
+}
+
+footer {
+    text-align: center;
+    font-size: medium;
+}
